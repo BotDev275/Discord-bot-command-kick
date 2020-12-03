@@ -1,0 +1,26 @@
+import discord
+import random  
+from discord.ext import commands 
+
+client = commands.bot(command_prefix = ~
+
+@client.event 
+async  def  on_ready():
+      print (*bot is ready.*)
+      
+      @client.commands()
+      async def kick (ctx, member : discord.member, *, reason=none) :
+          await member.kick(reason=reason)
+      
+      client.run(*NTY2NDK3NDE5NDA4MTc5MJIx.XLG17g.FSLIvYDEqKP_U15tm0JT2gCW2Y*)
+      
+      @client.command()
+      async def clear(ctx, ammount=0):
+          if
+          (ctx message.author.permissions_in(ctx.message.channel).manage_messages):
+              await ctx.channel.purge(limit= ammount+1
+              @clear.error
+              async def clear_error(ctx, error):
+                  if isinstance (error,
+                  commands.missingPermissions):
+                      await ctx.send('sorry you are not aloud to use this command.')
